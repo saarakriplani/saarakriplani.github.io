@@ -1,0 +1,154 @@
+body{
+    
+    font-family: arial, helvetica, sans-serif;
+    background-color: turquoise;
+    font-size: 30px;
+    line-height: 2;
+    color: black;
+    text-align: center;
+}
+
+
+.container{
+    
+    width:50%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+
+header{
+    background: white;
+    text-align: center;
+    border-bottom: black 3px solid;
+    border-top: black 3px solid;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+    min-height: 120px;
+    position: sticky;
+    top: 0.25rem;
+
+
+}
+
+header h1{
+    margin-top:70px;
+    font-size:50px;
+    color: white;
+}
+
+
+nav {
+    margin-top: 40px;
+    text-transform: uppercase;
+    position: sticky;
+}
+
+header li{
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#showcase{
+    background: url(turquoise.png) no-repeat 0px 0px;
+    min-height: 700px;
+    max-height: 1300px;
+}
+
+
+#showcase p{
+    width: 40%;
+    margin: auto;
+}
+
+#main{
+    text-align: left;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+footer li{
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration:none;
+}
+
+footer{
+    border-bottom: black 3px solid;
+    border-top: black 3px solid;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+    background:white;
+    font-size: 15px;
+}
+
+header .highlight{
+    color: turquoise;
+    font-weight: bold;
+}
+    
+    
+header a:hover{
+    font-weight: bold;
+    color: turquoise;
+    
+}
+
+
+
+footer a:hover{
+    font-weight: bold;
+    color: turquoise;
+}
+
+.dark{
+    padding: 15px;
+    background: black;
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#sidebar2 h1{
+    color: black;
+    
+}
+
+#sidebar2{
+    float:left;
+    width: 20%;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    
+}
+
+#main li{
+    list-style: none;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+@media(max-width: 770px){
+    header h1, nav{
+        float: none;
+    }
+}
+
