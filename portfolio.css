@@ -58,16 +58,11 @@ header a{
 }
 
 #showcase{
-    background: url(turquoise.png) no-repeat 0px 0px;
+    background: url(watercolor.jpg) no-repeat 100px 100px;
     min-height: 1200px;
     max-height: 1300px;
 }
 
-#picture{
-    background: url(dogbackground.jpg) no-repeat 0px 0px;
-    min-height: 800px;
-    max-height: 900px;
-}
 
 #showcase p{
     width: 40%;
