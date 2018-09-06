@@ -57,12 +57,12 @@ header a{
     
 }
 
-#showcase{
-    background: url(watercolor.jpg) no-repeat 100px 100px;
-    min-height: 1200px;
-    max-height: 1300px;
+#picture{
+    background: url(watercolor.jpg) no-repeat 0px 0px;
+    min-height: 800px;
+    max-height: 1000px;
+    background-size: cover;
 }
-
 
 #showcase p{
     width: 40%;
@@ -97,7 +97,7 @@ footer{
     border-right: black 3px solid;
     background:white;
     font-size: 15px;
-    margin-top: 660px;
+    margin-top: 0px;
 }
 
 header .highlight{
