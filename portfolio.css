@@ -59,8 +59,8 @@ header a{
 
 #picture{
     background: url(watercolor.jpg) no-repeat 0px 0px;
-    min-height: 1500px;
-    max-height: 2000px;
+    min-height: 2900px;
+    max-height: 3000px;
     background-size: cover;
 
 }
